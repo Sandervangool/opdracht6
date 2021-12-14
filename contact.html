@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact Formulier</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- Lettertype links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Libre+Baskerville:ital@1&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Contact Formulier</h1>
+    </header>
+    <nav>
+        <ul class="ul">
+            <li class="li"><a class="a" href="index.html">Home</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form name="contact" method="POST" data-netlify="true">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="telefoon">Telefoon nummer:</label><br>
+            <input type="tel" id="telefoon" name="telefoon"><br>
+
+            <label for="age">Geboorte datum:</label><br>
+            <input type="date" id="age" name="age"><br>
+
+            <label for="gender">Geslacht:</label><br>
+            <input type="radio" id="man" name="gender" value="man">
+            <label for="man">Man</label><br>
+            <input type="radio" id="vrouw" name="gender" value="vrouw">
+            <label for="vrouw">Vrouw</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Anders</label><br>
+
+            <label for="cuisine">Favoriete keuken:</label><br>
+            <input type="checkbox" id="french" name="cuisine" value="french">
+            <label for="french">French</label><br>
+            <input type="checkbox" id="italian" name="cuisine" value="italian">
+            <label for="italian">Italian</label><br>
+            <input type="checkbox" id="spanish" name="cuisine" value="spanish">
+            <label for="spanish">Spanish</label><br>
+            <input type="checkbox" id="arabic" name="cuisine" value="arabic">
+            <label for="arabic">Arabic</label><br>
+
+            <label for="apron">Favoriete kleur schort:</label><br>
+            <input type="color" id="apron" name="apron"><br>
+
+            <label for="textarea">Biografie:</label><br>
+            <textarea id="textarea" rows="10" cols="25"></textarea><br>
+
+            <label for="recipe">Laatste recept:</label><br>
+            <input type="file" id="recept" name="recept"><br>
+
+            <label for="urlrecipe">Recept pagina:</label><br>
+            <input type="url" id="urlrecipe" name="urlrecipe"><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset">
+        </form>
+
+    </main>
+
+</body>
+
+
+</html>
